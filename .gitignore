@@ -45,3 +45,8 @@ Thumbs.db
 firebase-debug.log
 firebase-debug.log.json
 .vscode/settings.json # Opcional: para settings específicas do VS Codedit
+
+# ... outras entradas ...
+
+# Environment variables
+.env
