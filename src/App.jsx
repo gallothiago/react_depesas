@@ -1,7 +1,7 @@
 // src/App.jsx
 import React, { useState, useEffect } from 'react';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
-import { auth, database } from './firebaseConfig'; // Importa auth e database
+import { auth, database } from "./firebaseConfig";
 import { ref, onValue, push, remove } from 'firebase/database'; // Funções do Realtime Database
 
 import Auth from './components/Auth';
