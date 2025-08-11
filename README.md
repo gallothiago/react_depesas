@@ -49,3 +49,58 @@ Para iniciar o servidor de desenvolvimento, execute o seguinte comando:
 
 ```bash
 npm start
+
+Estrutura do Projeto
+A estrutura de pastas do projeto é a seguinte:
+
+src/
+├── components/
+│   ├── Chart/
+│   │   ├── Chart.css
+│   │   ├── Chart.js
+│   │   ├── ChartBar.css
+│   │   └── ChartBar.js
+│   ├── Expenses/
+│   │   ├── ExpenseDate.css
+│   │   ├── ExpenseDate.js
+│   │   ├── ExpenseFilter.css
+│   │   ├── ExpenseFilter.js
+│   │   ├── ExpenseItem.css
+│   │   ├── ExpenseItem.js
+│   │   ├── Expenses.css
+│   │   ├── Expenses.js
+│   │   ├── ExpensesChart.js
+│   │   └── ExpensesList.js
+│   └── NewExpense/
+│       ├── ExpenseForm.css
+│       ├── ExpenseForm.js
+│       ├── NewExpense.css
+│       └── NewExpense.js
+├── App.css
+├── App.js
+├── index.css
+└── index.js
+Como Contribuir
+Se você quiser contribuir com o projeto, siga os passos abaixo:
+
+Faça um fork deste repositório.
+
+Crie uma nova branch com a sua feature:
+
+Bash
+
+git checkout -b minha-nova-feature
+Faça suas alterações e commit suas mudanças:
+
+Bash
+
+git commit -m 'feat: Adicionando uma nova feature'
+Faça o push da sua branch para o repositório original:
+
+Bash
+
+git push origin minha-nova-feature
+Abra um Pull Request.
+
+Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE.md para mais detalhes.
